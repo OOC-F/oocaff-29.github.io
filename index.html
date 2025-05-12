@@ -2,10 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://plixra.oocnet.icu/auth/register?code=kSek">
+    <meta http-equiv="refresh" content="3; url=https://ooc.oocwork.icu/auth/register?code=kSek">
     <title>Redirecting...</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            padding-top: 100px;
+            background-color: #f9f9f9;
+        }
+        .spinner {
+            margin: 30px auto;
+            width: 40px;
+            height: 40px;
+            border: 4px solid #ccc;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .fade-text {
+            font-size: 18px;
+            margin-top: 20px;
+            color: #333;
+            animation: fade 2s infinite;
+        }
+
+        @keyframes fade {
+            0%, 100% { opacity: 0; }
+            50% { opacity: 1; }
+        }
+
+        a {
+            color: #3498db;
+        }
+    </style>
 </head>
 <body>
-    <p>If you are not redirected automatically, follow this <a href="https://ooc.oocwork.icu/auth/register?code=kSek">link</a>.</p>
+    <h2>Redirecting...</h2>
+    <div class="spinner"></div>
+    <div class="fade-text">正在跳转，请稍候...</div>
+    <p>If not redirected, click <a href="https://ooc.oocwork.icu/auth/register?code=kSek">here</a> to proceed manually.</p>
 </body>
 </html>
